@@ -5,6 +5,5 @@ export function Main(){
         <div className={style.main}>
             <h2>This is main</h2>
         </div>
-
     )
 }

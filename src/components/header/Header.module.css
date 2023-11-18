@@ -1,6 +1,114 @@
-.header{
+.header {
     display: flex;
     width: 100%;
-    height: 3em;
-    background-color: lightgray;
+    height: 6rem;
+    color:#A0A6B1;
+    background-color: #F6F8FA;
+}
+
+.logoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 20rem;
+    padding-left: 4rem;
+}
+
+.logo{
+    width: 8rem;
+}
+
+.headerContainer {
+	display: flex;
+	width: 100%;
+	padding: 0 5rem 0 1rem;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.searchContainer{
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.searchIcon{
+    display: flex;
+    align-items: center;
+    margin-right: 0.6rem;
+}
+
+.searchInput{
+    padding: 0.4rem;
+    border: none;
+    width: 12rem;
+    border-radius: 0.4rem;
+    color: #A0A6B1;
+    background-color: #F6F8FA;
+}
+
+.searchInput:focus-visible{
+    background-color: white;
+}
+
+.userContainer{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+ 
+}
+
+.ringContainer{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+  
+}
+
+.ring{
+
+}
+
+.notificationCoounter {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0.6rem;
+    right: 0.8rem;
+    padding: 0.6em;
+    background-color: #0560FD;
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 600;
+    border-radius: 3rem;
+    min-width: 1.3rem;
+}
+
+.userImg {
+    background-image: url('./img/user.png');
+    height: 2.5rem;
+    width: 2.5rem;
+    background-position: center;
+    background-size: contain;
+    border-radius: 4rem;
+}
+
+.userDescription{
+    display: flex;
+    flex-direction: column;
+}
+
+.userName{
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+}
+
+.userTitle{
+    font-size: 0.8rem;
 }
