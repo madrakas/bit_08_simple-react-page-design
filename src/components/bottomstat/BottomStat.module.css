@@ -1,0 +1,7 @@
+.bottomStat{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    width: 100%;
+    height: fit-content;
+}

@@ -1,0 +1,65 @@
+.invoices{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    padding: 1.6rem;
+    background-color: #F8FBFE;
+    border: 2px white solid;
+    border-radius: 1rem;
+}
+
+.title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:black;
+    margin-bottom: 1rem;
+}
+
+.invoicesTable{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #A0A6B1;
+    border-top: 2px #E5EAEF solid;
+    border-bottom: 1px #E5EAEF solid;
+}
+
+.No{
+    display: flex;
+    width: 20%;
+}
+.cDate{
+    display: flex;
+    width: 20%;
+}
+.client{
+    display: flex;
+    width: 30%;
+}
+.amount{
+    display: flex;
+    width: 15%;
+}
+.status{
+    display: flex;
+    width: 15%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 1rem 0;
+    font-weight: 700;
+    color: black;
+}
