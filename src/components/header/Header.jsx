@@ -1,11 +1,11 @@
 import style from './Header.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBell } from '@fortawesome/free-solid-svg-icons'
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBell } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 export function Header(){
-    const ringElement = <FontAwesomeIcon icon={faBell} />
-    const searchElement =<FontAwesomeIcon icon={faMagnifyingGlass} />
+    const ringElement = <FontAwesomeIcon icon={faBell} />;
+    const searchElement = <FontAwesomeIcon icon={faMagnifyingGlass} />;
     return(
         <div className={style.header}>
             <div className={style.logoContainer}>
