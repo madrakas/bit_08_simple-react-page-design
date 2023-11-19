@@ -1,0 +1,82 @@
+.topStat {
+    display: flex;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 1.6rem;
+    align-items: center;
+    background-color: #F8FBFE;
+    border: 2px white solid;
+    border-radius: 0.5rem;
+}
+
+
+.statItem{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: azure;
+    border-right: 1px #A0A6B1 solid;
+}
+
+.statItem:last-child{
+    border-right: none;
+}
+
+.iconContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 1rem 0 1rem;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.title{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #495058;
+}
+
+.numbers{
+    display: flex;
+    align-items: baseline;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: black;
+}
+
+.prefix, .postfix{
+    color: #A0A6B1;
+    font-weight: 900;
+}
+
+.postfix{
+    margin-left: 0.5rem;
+}
+
+.prefix{
+    margin-right: 0.5rem;
+}
+
+.growth{
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    padding: 0.2rem;
+    font-size: 0.5rem;
+    line-height: 0.5rem;
+    color: green;
+    background-color: #EAF7E8;
+    border-radius: 0.3rem;
+}
+
+.negative{
+    color: red;
+    background-color: #FEEAEB;
+}
