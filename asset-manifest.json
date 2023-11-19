@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/bit_08_simple-react-page-design/static/css/main.867d94cd.css",
+    "main.js": "/bit_08_simple-react-page-design/static/js/main.d06e6689.js",
+    "static/media/user.png": "/bit_08_simple-react-page-design/static/media/user.b6fa15cc94257f88075c.png",
+    "index.html": "/bit_08_simple-react-page-design/index.html",
+    "main.867d94cd.css.map": "/bit_08_simple-react-page-design/static/css/main.867d94cd.css.map",
+    "main.d06e6689.js.map": "/bit_08_simple-react-page-design/static/js/main.d06e6689.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.867d94cd.css",
+    "static/js/main.d06e6689.js"
+  ]
+}
