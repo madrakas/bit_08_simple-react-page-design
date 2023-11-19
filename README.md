@@ -1,8 +1,10 @@
 # About this project
 
 This project is made for educational purpose.
-Design from [this template](https://dribbble.com/shots/16203931/attachments/8064185?mode=media)
-View deployed result on [my github](https://madrakas.github.io/bit_08_simple-react-page-design/)
+
+Design from [this template](https://dribbble.com/shots/16203931/attachments/8064185?mode=media).
+
+View deployed result on [my github](https://madrakas.github.io/bit_08_simple-react-page-design/).
 
 # Getting Started with Create React App
 
