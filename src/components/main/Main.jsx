@@ -1,8 +1,8 @@
 import { Aside } from '../aside/Aside';
+import { BottomStat } from '../bottomstat/BottomStat';
 import { MiddleStat } from '../middlestat/MiddleStat';
 import { TopStat } from '../topstat/TopStat';
 import style from './Main.module.css';
-
 
 export function Main(){
     return(
@@ -11,9 +11,8 @@ export function Main(){
             <div className={style.content}>
                 <TopStat />
                 <MiddleStat />
-                {/* row3 */}
+                <BottomStat />
             </div>
-            
         </div>
     );
 }
