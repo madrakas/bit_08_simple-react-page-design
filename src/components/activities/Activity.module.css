@@ -1,0 +1,49 @@
+.activity{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: fit-content;
+}
+
+.iconContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 2rem;
+}
+
+.icon{
+    padding: 0.5rem 0;
+    width: 2rem;
+}
+
+.verticalLine{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    border-right: 1px #E5E5E5 solid;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.decscription{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #495058;
+}
+
+.subject{
+    font-size: 1rem;
+    color: black;
+}
+
+.when{
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+    color: #A0A6B1;
+}
