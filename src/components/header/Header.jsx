@@ -23,7 +23,7 @@ export function Header(){
                     </div>
                     <div className={style.userImg}></div>
                     <div className={style.userDescription}>
-                        <p class={style.userName}>David Spade</p>
+                        <p className={style.userName}>David Spade</p>
                         <p className={style.userTitle}>Sales Admin</p>
                     </div>
                 </div>
