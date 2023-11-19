@@ -1,9 +1,79 @@
-.statContainer{
+.statContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    background-color: #F8FBFE;
+    border: 2px white solid;
+    border-radius: 1rem;
+}
+
+.title {
+    font-weight: 600;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 1rem;
+    color: #495058;
+}
+
+.subtitle{
+    display: flex;
+    font-size: 2rem;
+    width:fit-content;
+}
+
+.prefix{
+    margin-right: 1rem;
+    color: #A0A6B1;
+}
+
+.statistics{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1.2rem;
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+}
+
+.statColumnContainer{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+}
+
+.statColumn{
     display: flex;
     width: 100%;
     height: 100%;
-    padding: 1.6rem;
-    background-color: #F8FBFE;
-    border: 2px white solid;
+    background-color: #E5EAEF;
+    border-radius: 0.5rem;
+}
+
+.statColumn:hover{
+    background-color: #0560FD;
+}
+
+.label{
+    color: #A0A6B1;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.value{
+    display: flex;
+    position: absolute;
+    top: -3rem;
+    left: 0;
+    padding: 1rem 2rem;
+    color: white;
+    background-color: black;
     border-radius: 1rem;
 }
