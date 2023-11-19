@@ -3,3 +3,11 @@
     width: 100%;
     /* background-color: lightsalmon; */
 }
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 2rem;
+    width: 100%;
+    /* background-color: yellow; */
+}
