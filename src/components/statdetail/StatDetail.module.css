@@ -59,6 +59,7 @@
 
 .statColumn:hover{
     background-color: #0560FD;
+    box-shadow: 0 0.5rem 1rem #0560FD77;
 }
 
 .label{
