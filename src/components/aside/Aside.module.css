@@ -1,0 +1,7 @@
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    height: calc(100vh - 4rem);
+    padding: 6rem 2rem 2rem 2rem;
+}
